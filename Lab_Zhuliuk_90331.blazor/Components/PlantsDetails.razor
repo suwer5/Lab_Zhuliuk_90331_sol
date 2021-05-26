@@ -1,0 +1,21 @@
+﻿@using Lab_Zhuliuk_90331.blazor.Data;
+@if (Plants != null)
+{
+    <img src="@imageSrc" class="img-thumbnail" width="150" />
+    <div>
+        <p>@Plants.PlantsName - @Plants.Description</p>
+        <div class="badge badge-info ">@Plants.Calories калорий</div>
+    </div>
+}
+@code { [Parameter]
+    public DetailsViewModel Plants { get; set; }
+    [Parameter]
+    public EventCallback<DetailsViewModel> PlantsChanged { get; set; }
+    string imageSrc
+    {
+        get
+        {
+            return $"https://localhost:44368/images/{Plants.Image}";
+        }
+    }
+}

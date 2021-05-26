@@ -1,0 +1,28 @@
+﻿@using Lab_Zhuliuk_90331.blazor.Data;
+
+<h3>DishesList</h3>
+@if (Plantses == null)
+{
+    <p>Загрузка ...</p>
+}
+else
+{
+    <div class="list-group">
+        @{
+            var i = 1;
+            foreach (var plants in Plantses)
+            {
+                <button type="button" class="list-group-item list-group-item-action">
+                    @(i++) - @plants.PlantsName
+                </button>
+            }
+        }
+    </div>
+}
+@code {
+    [Parameter]
+    public IEnumerable<ListViewModel> Plantses { get; set; }
+    [Parameter]
+    public EventCallback<IEnumerable<ListViewModel>> PlantsesChanged { get; set; }
+}
+

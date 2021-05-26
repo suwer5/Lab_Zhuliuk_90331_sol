@@ -1,0 +1,1310 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1251">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Consolas;
+	panose-1:2 11 6 9 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:.25pt;
+	margin-left:35.9pt;
+	text-indent:-.5pt;
+	line-height:107%;
+	font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	color:black;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:56.65pt 4.2pt 56.9pt 85.1pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang=RU>
+
+<div class=WordSection1>
+
+<p class=MsoNormal align=center style='margin-top:0cm;margin-right:3.2pt;
+margin-bottom:7.8pt;margin-left:0cm;text-align:center;text-indent:0cm'><b><span
+style='font-size:16.0pt;line-height:107%'>Лабораторная работа №1 </span></b></p>
+
+<p class=MsoNormal align=center style='margin-top:0cm;margin-right:2.8pt;
+margin-bottom:9.35pt;margin-left:0cm;text-align:center;text-indent:0cm'><b>Знакомство
+с HTML </b></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:8.55pt;
+margin-left:52.55pt;text-indent:-17.9pt'><b><span style='line-height:107%'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b>Цель
+работы. </b></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+9.6pt;margin-left:35.75pt'>Цель лабораторной работы - знакомство с HTML,
+знакомство с CSS. </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:20.7pt;
+margin-left:52.55pt;text-indent:-17.9pt'><b><span style='line-height:107%'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b>Выполнение
+работы </b></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+8.15pt;margin-left:35.75pt'>2.1.<span style='font-family:"Arial",sans-serif'> </span>Подготовка
+к работе </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+7.75pt;margin-left:35.75pt'>В среде VisualStudio создайте новый проект ASP.NET
+Core (Рисунок 1). </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+7.25pt;margin-left:35.75pt'>Выберите шаблон<span lang=EN-US> «Web Application
+(Model-View-Controller)», </span>нажмите </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+.25pt;margin-left:.5pt'><span lang=EN-US>«Change Authentication» </span>и выберите<span
+lang=EN-US> «Individual user accounts» </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:7.9pt;
+margin-left:-3.4pt;text-indent:0cm'><span style='font-size:11.0pt;line-height:
+107%;font-family:"Calibri",sans-serif'><img width=667 height=462
+src="1_Знакомство_с_HTML_.files/image001.gif"></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+11.15pt;margin-left:35.75pt'>Рисунок 1 Создание проекта </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+.25pt;margin-left:0cm;text-indent:35.4pt;line-height:159%'>Добавьте библиотеку
+стилей font-awesome. Это библиотека, содержащая большой выбор иконок. Подробную
+информацию можно найти на сайте производителя [<b>Error! Reference source not
+found.</b>]. Кликните правой кнопкой по папке ~wwwroot/lib и выберите
+Add-Client-side library </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+.25pt;margin-left:.5pt'>(Рисунок 2) </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:7.95pt;
+margin-left:33.6pt;text-indent:0cm'><span style='font-size:11.0pt;line-height:
+107%;font-family:"Calibri",sans-serif'><img width=523 height=410
+src="1_Знакомство_с_HTML_.files/image002.gif"></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:204.55pt;margin-bottom:
+.25pt;margin-left:35.75pt;line-height:172%'>Рисунок 2Добавление библиотеки В
+открывшемся окне введите font-awesome ( Рисунок 3). </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:9.7pt;
+margin-left:32.0pt;text-indent:0cm'><span style='font-size:11.0pt;line-height:
+107%;font-family:"Calibri",sans-serif'><img width=437 height=328
+src="1_Знакомство_с_HTML_.files/image003.gif"></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+12.4pt;margin-left:35.75pt'>Рисунок 3 Выбор библиотеки </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+8.7pt;margin-left:35.75pt'>2.2.<span style='font-family:"Arial",sans-serif'> </span>Создание
+страницы Html </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+.25pt;margin-left:35.75pt'>В папку ~wwwroot добавьте новый элемент – страницу
+html. </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+.25pt;margin-left:0cm;text-indent:35.4pt;line-height:162%'>Подключите таблицы
+стилей lib/bootstrap/dist/css/bootstrap.css, lib/fontawesome/css/all.css и
+css/site.css, а также фалы скриптов lib/jquery/dist/jquery.js и
+lib/bootstrap/dist/js/bootstrap.bundle.js. В среде VisualStudio это можно
+сделать «перетаскиванием» мышью (Рисунок 4) </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;
+margin-left:-1.95pt;text-indent:0cm'><span style='font-size:11.0pt;line-height:
+107%;font-family:"Calibri",sans-serif'><img width=671 height=320
+src="1_Знакомство_с_HTML_.files/image004.gif"></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+11.2pt;margin-left:35.75pt'>Рисунок 4 Подключение скриптов на страницу </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+4.85pt;margin-left:35.75pt'>Получаем страницу со следующим содержимым: </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:-.25pt;margin-bottom:.0001pt'><span lang=EN-US style='font-size:
+12.0pt;line-height:107%;font-family:Consolas;color:blue'>&lt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Consolas;
+color:maroon'>!DOCTYPE</span><span lang=EN-US style='font-size:12.0pt;
+line-height:107%;font-family:Consolas'> </span><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:Consolas;color:red'>html</span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Consolas;
+color:blue'>&gt;</span><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:-.25pt;margin-bottom:.0001pt'><span lang=EN-US style='font-size:
+12.0pt;line-height:107%;font-family:Consolas;color:blue'>&lt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Consolas;
+color:maroon'>html</span><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:Consolas;color:blue'>&gt;</span><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:-.25pt;margin-bottom:.0001pt'><span lang=EN-US style='font-size:
+12.0pt;line-height:107%;font-family:Consolas;color:blue'>&lt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Consolas;
+color:maroon'>head</span><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:Consolas;color:blue'>&gt;</span><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:38.45pt;margin-bottom:
+.6pt;margin-left:-.25pt;line-height:103%'><span lang=EN-US style='font-size:
+12.0pt;line-height:103%;font-family:Consolas'>    </span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>&lt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:maroon'>meta</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas'> </span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:red'>charset</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:blue'>=&quot;utf-8&quot;</span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas'> </span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>/&gt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:-.25pt;margin-bottom:.0001pt'><span lang=EN-US style='font-size:
+12.0pt;line-height:107%;font-family:Consolas'>    </span><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:Consolas;color:blue'>&lt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Consolas;
+color:maroon'>title</span><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:Consolas;color:blue'>&gt;&lt;/</span><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:Consolas;color:maroon'>title</span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Consolas;
+color:blue'>&gt;</span><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:38.45pt;margin-bottom:
+.6pt;margin-left:-.25pt;line-height:103%'><span lang=EN-US style='font-size:
+12.0pt;line-height:103%;font-family:Consolas'>    </span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>&lt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:maroon'>link</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas'> </span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:red'>href</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>=&quot;lib/bootstrap/dist/css/bootstrap.css&quot;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:red'>rel</span><span lang=EN-US style='font-size:12.0pt;line-height:103%;
+font-family:Consolas;color:blue'>=&quot;stylesheet&quot;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:38.45pt;margin-bottom:
+.6pt;margin-left:-.25pt;line-height:103%'><span lang=EN-US style='font-size:
+12.0pt;line-height:103%;font-family:Consolas;color:blue'>/&gt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:38.45pt;margin-bottom:
+.6pt;margin-left:-.25pt;line-height:103%'><span lang=EN-US style='font-size:
+12.0pt;line-height:103%;font-family:Consolas'>    </span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>&lt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:maroon'>link</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas'> </span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:red'>href</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>=&quot;lib/font-awesome/css/all.css&quot;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:red'>rel</span><span lang=EN-US style='font-size:12.0pt;line-height:103%;
+font-family:Consolas;color:blue'>=&quot;stylesheet&quot;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:blue'>/&gt;</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:38.45pt;margin-bottom:
+.6pt;margin-left:-.25pt;line-height:103%'><span lang=EN-US style='font-size:
+12.0pt;line-height:103%;font-family:Consolas'>    </span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>&lt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:maroon'>link</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas'> </span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:red'>href</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>=&quot;css/site.css&quot;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:red'>rel</span><span lang=EN-US style='font-size:12.0pt;line-height:103%;
+font-family:Consolas;color:blue'>=&quot;stylesheet&quot;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:blue'>/&gt;</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:-.25pt;margin-bottom:.0001pt'><span lang=EN-US style='font-size:
+12.0pt;line-height:107%;font-family:Consolas;color:blue'>&lt;/</span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Consolas;
+color:maroon'>head</span><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:Consolas;color:blue'>&gt;</span><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:-.25pt;margin-bottom:.0001pt'><span lang=EN-US style='font-size:
+12.0pt;line-height:107%;font-family:Consolas;color:blue'>&lt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Consolas;
+color:maroon'>body</span><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:Consolas;color:blue'>&gt;</span><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;text-indent:0cm'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Consolas'>  </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:38.45pt;margin-bottom:
+.6pt;margin-left:-.25pt;line-height:103%'><span lang=EN-US style='font-size:
+12.0pt;line-height:103%;font-family:Consolas'>    </span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>&lt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:maroon'>script</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas'> </span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:red'>src</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>=&quot;lib/jquery/dist/jquery.js&quot;&gt;&lt;/</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:maroon'>script</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:blue'>&gt;</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:38.45pt;margin-bottom:
+.6pt;margin-left:-.25pt;line-height:103%'><span lang=EN-US style='font-size:
+12.0pt;line-height:103%;font-family:Consolas'>    </span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>&lt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:maroon'>script</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas'> </span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:red'>src</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>=&quot;lib/bootstrap/dist/js/bootstrap.bundle.js&quot;&gt;&lt;/</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:maroon'>script</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:blue'>&gt;</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:-.25pt;margin-bottom:.0001pt'><span style='font-size:12.0pt;
+line-height:107%;font-family:Consolas;color:blue'>&lt;/</span><span
+style='font-size:12.0pt;line-height:107%;font-family:Consolas;color:maroon'>body</span><span
+style='font-size:12.0pt;line-height:107%;font-family:Consolas;color:blue'>&gt;</span><span
+style='font-size:12.0pt;line-height:107%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:-.25pt'><span style='font-size:12.0pt;line-height:107%;font-family:
+Consolas;color:blue'>&lt;/</span><span style='font-size:12.0pt;line-height:
+107%;font-family:Consolas;color:maroon'>html</span><span style='font-size:12.0pt;
+line-height:107%;font-family:Consolas;color:blue'>&gt; </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:8.95pt;
+margin-left:0cm;text-indent:0cm'> </p>
+
+<p class=MsoNormal align=right style='margin-top:0cm;margin-right:45.55pt;
+margin-bottom:5.0pt;margin-left:0cm;text-align:right;text-indent:0cm'>В файле
+Site.css удалите все содержимое и опишите следующие стили: </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:-.25pt;margin-bottom:.0001pt'><span lang=EN-US style='font-size:
+12.0pt;line-height:107%;font-family:Consolas;color:maroon'>header</span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Consolas'>, </span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Consolas;
+color:maroon'>footer</span><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:Consolas'> { </span></p>
+
+<p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;text-indent:0cm'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Consolas'>    </span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Consolas;
+color:red'>background-color</span><span lang=EN-US style='font-size:12.0pt;
+line-height:107%;font-family:Consolas'>: </span><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:Consolas;color:blue'>#343a40</span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Consolas'>; </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:.5pt;margin-bottom:.0001pt'><span style='font-size:12.0pt;
+line-height:107%;font-family:Consolas'>} </span></p>
+
+<p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;text-indent:0cm'><span
+style='font-size:12.0pt;line-height:107%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:-.25pt;margin-bottom:.0001pt'><span style='font-size:12.0pt;
+line-height:107%;font-family:Consolas;color:maroon'>.nav-color</span><span
+style='font-size:12.0pt;line-height:107%;font-family:Consolas'> { </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:261.8pt;margin-bottom:
+22.85pt;margin-left:-.25pt;line-height:103%'><span style='font-size:12.0pt;
+line-height:103%;font-family:Consolas'>    </span><span style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:red'>color</span><span
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'>: </span><span
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>rgba(255,</span><span
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>255,</span><span
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>255,</span><span
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>0.5)</span><span
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'> } </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+9.4pt;margin-left:35.75pt'>2.3.<span style='font-family:"Arial",sans-serif'> </span>Разметка
+структуры страницы </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+8.85pt;margin-left:35.75pt'>Выполните разметку страницы, чтобы получить
+структуру как на </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+6.55pt;margin-left:.5pt'>Рисунок 5 </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:35.4pt;margin-bottom:.0001pt;text-indent:0cm'> </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:7.9pt;
+margin-left:1.5pt;text-indent:0cm'><span style='font-size:11.0pt;line-height:
+107%;font-family:"Calibri",sans-serif'><img width=614 height=297
+src="1_Знакомство_с_HTML_.files/image005.gif"></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+10.9pt;margin-left:35.75pt'>Рисунок 5 Структура страницы </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+.25pt;margin-left:0cm;text-indent:35.4pt;line-height:162%'>На рисунке красными
+прямоугольниками обозначены тэги &lt;header&gt; (верхний прямоугольник) и
+&lt;footer&gt; (нижний прямоугольник). Зелеными прямоугольниками обозначены
+тэги &lt;div&gt;, имеющие класс css «container». </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+9.0pt;margin-left:.5pt'>Этот класс ограничивает ширину блока в зависимости от
+размера экрана. </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+4.85pt;margin-left:35.75pt'>Для такой структуры разметка в тэге body будет
+следующая: </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:-.25pt;margin-bottom:.0001pt'><span style='font-size:12.0pt;
+line-height:107%;font-family:Consolas;color:blue'>&lt;</span><span
+style='font-size:12.0pt;line-height:107%;font-family:Consolas;color:maroon'>header</span><span
+style='font-size:12.0pt;line-height:107%;font-family:Consolas;color:blue'>&gt;</span><span
+style='font-size:12.0pt;line-height:107%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:38.45pt;margin-bottom:
+.6pt;margin-left:35.9pt;line-height:103%'><span style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:blue'>&lt;</span><span
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:maroon'>div</span><span
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:red'>class</span><span
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>=&quot;container&quot;&gt;</span><span
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:35.15pt;margin-bottom:.0001pt'><span style='font-size:12.0pt;
+line-height:107%;font-family:Consolas;color:darkgreen'>&lt;!-- Панель навигации
+--&gt;</span><span style='font-size:12.0pt;line-height:107%;font-family:Consolas'>
+</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:35.15pt;margin-bottom:.0001pt'><span lang=EN-US style='font-size:
+12.0pt;line-height:107%;font-family:Consolas;color:blue'>&lt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Consolas;
+color:maroon'>span</span><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:Consolas'> </span><span lang=EN-US style='font-size:12.0pt;
+line-height:107%;font-family:Consolas;color:red'>class</span><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:Consolas;color:blue'>=&quot;nav-color&quot;&gt;</span><span
+style='font-size:12.0pt;line-height:107%;font-family:Consolas'>Заголовок</span><span
+style='font-size:12.0pt;line-height:107%;font-family:Consolas'> </span><span
+style='font-size:12.0pt;line-height:107%;font-family:Consolas'>страницы</span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Consolas;
+color:blue'>&lt;/</span><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:Consolas;color:maroon'>span</span><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:Consolas;color:blue'>&gt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:35.15pt;margin-bottom:.0001pt'><span lang=EN-US style='font-size:
+12.0pt;line-height:107%;font-family:Consolas;color:blue'>&lt;/</span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Consolas;
+color:maroon'>div</span><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:Consolas;color:blue'>&gt;</span><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:Consolas;color:darkgreen'>&lt;!--
+container - </span><span style='font-size:12.0pt;line-height:107%;font-family:
+Consolas;color:darkgreen'>конец</span><span lang=EN-US style='font-size:12.0pt;
+line-height:107%;font-family:Consolas;color:darkgreen'> --&gt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:.5pt;margin-bottom:.0001pt'><span lang=EN-US style='font-size:12.0pt;
+line-height:107%;font-family:Consolas;color:blue'>&lt;/</span><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:Consolas;color:maroon'>header</span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Consolas;
+color:blue'>&gt;</span><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:Consolas;color:darkgreen'>&lt;!-- header - </span><span
+style='font-size:12.0pt;line-height:107%;font-family:Consolas;color:darkgreen'>конец</span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Consolas;
+color:darkgreen'> --&gt;</span><span lang=EN-US style='font-size:12.0pt;
+line-height:107%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:38.45pt;margin-bottom:
+.6pt;margin-left:-.25pt;line-height:103%'><span lang=EN-US style='font-size:
+12.0pt;line-height:103%;font-family:Consolas;color:blue'>&lt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:maroon'>main</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas'> </span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:red'>class</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>=&quot;container&quot;&gt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:35.15pt;margin-bottom:.0001pt'><span style='font-size:12.0pt;
+line-height:107%;font-family:Consolas'>Содержимое</span><span style='font-size:
+12.0pt;line-height:107%;font-family:Consolas'> </span><span style='font-size:
+12.0pt;line-height:107%;font-family:Consolas'>страницы</span><span
+style='font-size:12.0pt;line-height:107%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:-.25pt;margin-bottom:.0001pt'><span lang=EN-US style='font-size:
+12.0pt;line-height:107%;font-family:Consolas;color:blue'>&lt;/</span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Consolas;
+color:maroon'>main</span><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:Consolas;color:blue'>&gt;</span><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:38.45pt;margin-bottom:
+.6pt;margin-left:-.25pt;line-height:103%'><span lang=EN-US style='font-size:
+12.0pt;line-height:103%;font-family:Consolas;color:blue'>&lt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:maroon'>footer</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas'> </span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:red'>class</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>=&quot;fixed-bottom&quot;&gt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:38.45pt;margin-bottom:
+.6pt;margin-left:35.9pt;line-height:103%'><span lang=EN-US style='font-size:
+12.0pt;line-height:103%;font-family:Consolas;color:blue'>&lt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:maroon'>div</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas'> </span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:red'>class</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>=&quot;container&quot;&gt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:85.4pt;margin-bottom:
+.6pt;margin-left:35.4pt;text-indent:35.4pt;line-height:103%'><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>&lt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:maroon'>span</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas'> </span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:red'>class</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>=&quot;nav-color&quot;&gt;</span><span
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'>Подвал</span><span
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'>страницы</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:blue'>&lt;/</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:maroon'>span</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>&gt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:blue'>&lt;/</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:maroon'>div</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>&gt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:10.35pt;
+margin-left:-.25pt'><span style='font-size:12.0pt;line-height:107%;font-family:
+Consolas;color:blue'>&lt;/</span><span style='font-size:12.0pt;line-height:
+107%;font-family:Consolas;color:maroon'>footer</span><span style='font-size:
+12.0pt;line-height:107%;font-family:Consolas;color:blue'>&gt; </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+9.2pt;margin-left:35.75pt'>Откройте страницу в браузере.  </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+6.45pt;margin-left:35.75pt'>Вы должны получить вид ка на Рисунок 6. </p>
+
+<p class=MsoNormal align=right style='margin-top:0cm;margin-right:17.05pt;
+margin-bottom:5.8pt;margin-left:0cm;text-align:right;text-indent:0cm'><span
+style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif'><img
+width=605 height=185 id="Group 8273"
+src="1_Знакомство_с_HTML_.files/image006.gif"></span> </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+13.0pt;margin-left:35.75pt'>Рисунок 6 Базовый вид страницы </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+9.3pt;margin-left:35.75pt'>2.4.<span style='font-family:"Arial",sans-serif'> </span>Оформление
+заголовка страницы </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+9.1pt;margin-left:35.75pt'>Заголовок страницы должен содержать следующее
+(Рисунок 7): </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+9.8pt;margin-left:0cm;text-indent:35.15pt'><span style='line-height:107%'>-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>меню сайта </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+.25pt;margin-left:0cm;text-indent:35.15pt'><span style='line-height:107%'>-<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>информация пользователя </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:7.8pt;
+margin-left:-1.95pt;text-indent:0cm'><span style='font-size:11.0pt;line-height:
+107%;font-family:"Calibri",sans-serif'><img width=653 height=98
+src="1_Знакомство_с_HTML_.files/image007.gif"></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+11.05pt;margin-left:35.75pt'>Рисунок 7 Заголовок страницы </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+9.4pt;margin-left:35.75pt'>Меню сайта (Рисунок 8) состоит из  </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+2.55pt;margin-left:0cm;text-indent:35.15pt;line-height:151%'><span
+style='line-height:151%'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>заголовка (Ваш номер зачетки - ссылка на страницу Лаб1, класс
+Bootstrap «badge») </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+.25pt;margin-left:0cm;text-indent:35.15pt;line-height:161%'><span
+style='line-height:161%'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>кнопок        навигации  по      страницам  сайта          (Лб1,  Каталог
+         и Администрирование) - используйте классы для оформления навигационных
+панелей         bootstrap </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:6.25pt;
+margin-left:-.25pt'><a
+href="https://getbootstrap.com/docs/4.3/components/navbar/#supported-content"><span
+style='color:black;text-decoration:none'>(</span></a><a
+href="https://getbootstrap.com/docs/4.3/components/navbar/#supported-content"><span
+style='color:#0563C1'>https://getbootstrap.com/docs/4.3/components/navbar/#supported</span></a><a
+href="https://getbootstrap.com/docs/4.3/components/navbar/#supported-content"><span
+style='color:#0563C1'>-</span></a><a
+href="https://getbootstrap.com/docs/4.3/components/navbar/#supported-content"><span
+style='color:#0563C1'>content</span></a><a
+href="https://getbootstrap.com/docs/4.3/components/navbar/#supported-content"><span
+style='color:black;text-decoration:none'>)</span></a>. </p>
+
+<p class=MsoNormal align=right style='margin-top:0cm;margin-right:0cm;
+margin-bottom:5.8pt;margin-left:-1.95pt;text-align:right;text-indent:0cm'><span
+style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif'><img
+border=0 width=675 height=120 id="Group 8275"
+src="1_Знакомство_с_HTML_.files/image008.gif"></span> </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+.25pt;margin-left:35.75pt'>Рисунок 8 Меню сайта </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+9.55pt;margin-left:35.75pt'>Информация пользователя (Рисунок 9) состоит из: </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+0cm;margin-left:0cm;margin-bottom:.0001pt;text-indent:35.15pt;line-height:156%'><span
+style='line-height:156%'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>ссылка на страницу корзины заказа. Текст ссылки - информация о
+корзине заказа (общая стоимость и количество товаров). Для иконки использовать
+иконку font-awesome (класс «fas fa-shopping-cart») </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+0cm;margin-left:0cm;margin-bottom:.0001pt;text-indent:35.15pt;line-height:156%'><span
+style='line-height:156%'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>выпадающее меню (класс dropdown - <a
+href="https://getbootstrap.com/docs/4.3/components/dropdowns/#menu-items"><span
+style='color:#0563C1'>https://getbootstrap.com/docs/4.3/components/dropdowns/#menu</span></a><a
+href="https://getbootstrap.com/docs/4.3/components/dropdowns/#menu-items"><span
+style='color:#0563C1'>-</span></a><a
+href="https://getbootstrap.com/docs/4.3/components/dropdowns/#menu-items"><span
+style='color:#0563C1'>items</span></a><a
+href="https://getbootstrap.com/docs/4.3/components/dropdowns/#menu-items"><span
+style='color:black;text-decoration:none'>)</span></a> в виде аватарки
+пользователя. Меню состоит из аватарки, имени пользователя, ссылки на страницу
+списка всех заказанных товаров (услуг) пользователя и кнопки «Log off» (или
+«Выход») </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:7.8pt;
+margin-left:24.95pt;text-indent:0cm'><span style='font-size:11.0pt;line-height:
+107%;font-family:"Calibri",sans-serif'><img border=0 width=373 height=296
+src="1_Знакомство_с_HTML_.files/image009.gif"></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+10.5pt;margin-left:35.75pt'>Рисунок 9 Информация пользователя </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+.25pt;margin-left:0cm;text-indent:35.4pt;line-height:164%'>Для хранения
+аватарки создайте папку Images в папке wwwroot проекта. </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+4.85pt;margin-left:35.75pt'>Разметка заголовка сайта может выглядеть так: </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:.5pt;margin-bottom:.0001pt'><span style='font-size:12.0pt;
+line-height:107%;font-family:Consolas;color:darkgreen'>&lt;!-- Панель навигации
+--&gt;</span><span style='font-size:12.0pt;line-height:107%;font-family:Consolas'>
+</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:38.45pt;margin-bottom:
+.6pt;margin-left:-.25pt;line-height:103%'><span lang=EN-US style='font-size:
+12.0pt;line-height:103%;font-family:Consolas;color:blue'>&lt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:maroon'>nav</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas'> </span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:red'>class</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>=&quot;navbar
+navbar-expand-md navbar-dark bg-dark&quot;&gt;</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:35.15pt;margin-bottom:.0001pt'><span style='font-size:12.0pt;
+line-height:107%;font-family:Consolas;color:darkgreen'>&lt;!-- меню сайта
+--&gt;</span><span style='font-size:12.0pt;line-height:107%;font-family:Consolas'>
+</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:38.45pt;margin-bottom:
+.6pt;margin-left:35.9pt;line-height:103%'><span lang=EN-US style='font-size:
+12.0pt;line-height:103%;font-family:Consolas;color:blue'>&lt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:maroon'>a</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas'> </span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:red'>class</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>=&quot;navbar-brand&quot;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:red'>href</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:blue'>=&quot;#&quot;&gt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'>WebLabsV06</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:blue'>&lt;/</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:maroon'>a</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>&gt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:38.45pt;margin-bottom:
+.6pt;margin-left:35.9pt;line-height:103%'><span lang=EN-US style='font-size:
+12.0pt;line-height:103%;font-family:Consolas;color:blue'>&lt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:maroon'>div</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas'> </span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:red'>class</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>=&quot;navbar-nav&quot;&gt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:38.45pt;margin-bottom:
+.6pt;margin-left:71.3pt;line-height:103%'><span lang=EN-US style='font-size:
+12.0pt;line-height:103%;font-family:Consolas;color:blue'>&lt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:maroon'>a</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas'> </span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:red'>class</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>=&quot;nav-item
+nav-link active&quot;</span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas'> </span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:red'>href</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:blue'>=&quot;#&quot;&gt;</span><span style='font-size:12.0pt;line-height:
+103%;font-family:Consolas'>Лб</span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas'> 1</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>&lt;/</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:maroon'>a</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:blue'>&gt;</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal align=center style='margin-top:0cm;margin-right:40.95pt;
+margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt;text-align:center;
+text-indent:0cm'><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:Consolas;color:blue'>&lt;</span><span lang=EN-US style='font-size:
+12.0pt;line-height:107%;font-family:Consolas;color:maroon'>a</span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Consolas;
+color:red'>class</span><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:Consolas;color:blue'>=&quot;nav-item nav-link&quot;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Consolas;
+color:red'>href</span><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:Consolas;color:blue'>=&quot;#&quot;&gt;</span><span
+style='font-size:12.0pt;line-height:107%;font-family:Consolas'>Каталог</span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Consolas;
+color:blue'>&lt;/</span><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:Consolas;color:maroon'>a</span><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:Consolas;color:blue'>&gt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal align=right style='margin-top:0cm;margin-right:45.0pt;
+margin-bottom:.15pt;margin-left:.5pt;text-align:right'><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:Consolas;color:blue'>&lt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Consolas;
+color:maroon'>a</span><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:Consolas'> </span><span lang=EN-US style='font-size:12.0pt;
+line-height:107%;font-family:Consolas;color:red'>class</span><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:Consolas;color:blue'>=&quot;nav-item
+nav-link&quot;</span><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:Consolas'> </span><span lang=EN-US style='font-size:12.0pt;
+line-height:107%;font-family:Consolas;color:red'>href</span><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:Consolas;color:blue'>=&quot;#&quot;&gt;</span><span
+style='font-size:12.0pt;line-height:107%;font-family:Consolas'>Администрирование</span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Consolas;
+color:blue'>&lt;/</span><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:Consolas;color:maroon'>a</span><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:Consolas;color:blue'>&gt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:38.45pt;margin-bottom:
+.6pt;margin-left:35.9pt;line-height:103%'><span style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:blue'>&lt;/</span><span
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:maroon'>div</span><span
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>&gt;</span><span
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:35.15pt;margin-bottom:.0001pt'><span style='font-size:12.0pt;
+line-height:107%;font-family:Consolas;color:darkgreen'>&lt;!-- меню сайта -
+конец --&gt;</span><span style='font-size:12.0pt;line-height:107%;font-family:
+Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:35.15pt;margin-bottom:.0001pt'><span style='font-size:12.0pt;
+line-height:107%;font-family:Consolas;color:darkgreen'>&lt;!-- Информация
+пользователя --&gt;</span><span style='font-size:12.0pt;line-height:107%;
+font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:38.45pt;margin-bottom:
+.6pt;margin-left:35.9pt;line-height:103%'><span lang=EN-US style='font-size:
+12.0pt;line-height:103%;font-family:Consolas;color:blue'>&lt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:maroon'>a</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas'> </span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:red'>href</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>=&quot;#&quot;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:red'>class</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:blue'>=&quot;navbar-text ml-auto&quot;&gt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal align=right style='margin-top:0cm;margin-right:45.0pt;
+margin-bottom:.15pt;margin-left:.5pt;text-align:right'><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:Consolas'>00,0 </span><span
+style='font-size:12.0pt;line-height:107%;font-family:Consolas'>руб</span><span
+style='font-size:12.0pt;line-height:107%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Consolas;
+color:blue'>&lt;</span><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:Consolas;color:maroon'>i</span><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Consolas;
+color:red'>class</span><span lang=EN-US style='font-size:12.0pt;line-height:
+107%;font-family:Consolas;color:blue'>=&quot;fas fa-shopping-cart
+nav-color&quot;&gt;&lt;/</span><span lang=EN-US style='font-size:12.0pt;
+line-height:107%;font-family:Consolas;color:maroon'>i</span><span lang=EN-US
+style='font-size:12.0pt;line-height:107%;font-family:Consolas;color:blue'>&gt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Consolas'> (0) </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:38.45pt;margin-bottom:
+.6pt;margin-left:35.9pt;line-height:103%'><span lang=EN-US style='font-size:
+12.0pt;line-height:103%;font-family:Consolas;color:blue'>&lt;/</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:maroon'>a</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:blue'>&gt;</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;text-indent:0cm'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:38.45pt;margin-bottom:
+.6pt;margin-left:35.9pt;line-height:103%'><span lang=EN-US style='font-size:
+12.0pt;line-height:103%;font-family:Consolas;color:blue'>&lt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:maroon'>div</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas'> </span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:red'>class</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>=&quot;dropdown
+ml-4 nav-color&quot;&gt;</span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:38.45pt;margin-bottom:
+.6pt;margin-left:106.2pt;text-indent:-35.4pt;line-height:103%'><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:blue'>&lt;</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:maroon'>div</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:red'>class</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:blue'>=&quot;dropdown-toggle&quot;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:red'>id</span><span lang=EN-US style='font-size:12.0pt;line-height:103%;
+font-family:Consolas;color:blue'>=&quot;dropdownMenuButton&quot;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'>  </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:red'>data-toggle</span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:blue'>=&quot;dropdown&quot;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:red'>aria-haspopup</span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:blue'>=&quot;true&quot;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'>  </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:red'>aria-expanded</span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:blue'>=&quot;false&quot;&gt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:98.55pt;margin-bottom:
+.6pt;margin-left:106.2pt;text-indent:-35.4pt;line-height:103%'><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:blue'>&lt;</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:maroon'>img</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:red'>src</span><span lang=EN-US style='font-size:12.0pt;line-height:103%;
+font-family:Consolas;color:blue'>=&quot;images/avatar.jpg&quot;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:red'>width</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:blue'>=&quot;30&quot;</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'>  </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:red'>alt</span><span lang=EN-US style='font-size:12.0pt;line-height:103%;
+font-family:Consolas;color:blue'>=&quot;User&quot;</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:red'>class</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:blue'>=&quot;rounded&quot;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:blue'>/&gt;</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:38.45pt;margin-bottom:
+.6pt;margin-left:71.3pt;line-height:103%'><span lang=EN-US style='font-size:
+12.0pt;line-height:103%;font-family:Consolas;color:blue'>&lt;/</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:maroon'>div</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:blue'>&gt;</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:38.45pt;margin-bottom:
+.6pt;margin-left:106.2pt;text-indent:-35.4pt;line-height:103%'><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:blue'>&lt;</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:maroon'>div</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:red'>class</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:blue'>=&quot;dropdown-menu&quot;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'>  </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:red'>aria-labelledby</span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:blue'>=&quot;dropdownMenuButton&quot;&gt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:38.45pt;margin-bottom:
+.6pt;margin-left:106.7pt;line-height:103%'><span lang=EN-US style='font-size:
+12.0pt;line-height:103%;font-family:Consolas;color:blue'>&lt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:maroon'>div</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas'> </span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:red'>class</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>=&quot;dropdown-item-text&quot;&gt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:107.0pt;margin-bottom:
+.6pt;margin-left:106.2pt;text-indent:35.45pt;line-height:103%'><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:blue'>&lt;</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:maroon'>img</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:red'>src</span><span lang=EN-US style='font-size:12.0pt;line-height:103%;
+font-family:Consolas;color:blue'>=&quot;images/avatar.jpg&quot;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:red'>width</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:blue'>=&quot;50&quot;</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:red'>alt</span><span lang=EN-US style='font-size:12.0pt;line-height:103%;
+font-family:Consolas;color:blue'>=&quot;User&quot;</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:red'>class</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:blue'>=&quot;rounded&quot;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:blue'>/&gt;</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas'> user@mail.ru </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:38.45pt;margin-bottom:
+.6pt;margin-left:106.7pt;line-height:103%'><span lang=EN-US style='font-size:
+12.0pt;line-height:103%;font-family:Consolas;color:blue'>&lt;/</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:maroon'>div</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:blue'>&gt;</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:38.45pt;margin-bottom:
+.6pt;margin-left:106.7pt;line-height:103%'><span lang=EN-US style='font-size:
+12.0pt;line-height:103%;font-family:Consolas;color:blue'>&lt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:maroon'>div</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas'> </span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:red'>class</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>=&quot;dropdown-divider&quot;&gt;&lt;/</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:maroon'>div</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:blue'>&gt;</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:38.45pt;margin-bottom:
+.6pt;margin-left:106.7pt;line-height:103%'><span lang=EN-US style='font-size:
+12.0pt;line-height:103%;font-family:Consolas;color:blue'>&lt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:maroon'>a</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas'> </span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:red'>class</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>=&quot;dropdown-item&quot;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:red'>href</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:blue'>=&quot;#&quot;&gt;</span><span
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'>Мои</span><span
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'>товары</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:blue'>&lt;/</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:maroon'>a</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>&gt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:56.55pt;margin-bottom:
+.6pt;margin-left:70.8pt;text-indent:35.4pt;line-height:103%'><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>&lt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:maroon'>a</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas'> </span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:red'>class</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>=&quot;dropdown-item&quot;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:red'>href</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:blue'>=&quot;#&quot;&gt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'>Log
+off</span><span lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:
+Consolas;color:blue'>&lt;/</span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:maroon'>a</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>&gt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:blue'>&lt;/</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:maroon'>div</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>&gt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:38.45pt;margin-bottom:
+.6pt;margin-left:35.9pt;line-height:103%'><span style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:blue'>&lt;/</span><span
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:maroon'>div</span><span
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>&gt; </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:35.15pt;margin-bottom:.0001pt'><span style='font-size:12.0pt;
+line-height:107%;font-family:Consolas;color:darkgreen'>&lt;!-- Информация
+пользователя - конец --&gt;</span><span style='font-size:12.0pt;line-height:
+107%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:3.65pt;
+margin-left:.5pt'><span style='font-size:12.0pt;line-height:107%;font-family:
+Consolas;color:blue'>&lt;/</span><span style='font-size:12.0pt;line-height:
+107%;font-family:Consolas;color:maroon'>nav</span><span style='font-size:12.0pt;
+line-height:107%;font-family:Consolas;color:blue'>&gt;</span><span
+style='font-size:12.0pt;line-height:107%;font-family:Consolas'> </span><span
+style='font-size:12.0pt;line-height:107%;font-family:Consolas;color:darkgreen'>&lt;!--
+Панель навигации - конец --&gt; </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:23.1pt;
+margin-left:0cm;text-indent:0cm'><span style='font-size:9.5pt;line-height:107%;
+font-family:Consolas;color:darkgreen'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+9.2pt;margin-left:35.75pt'>2.5.<span style='font-family:"Arial",sans-serif'> </span>Разметка
+подвала страницы </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+.25pt;margin-left:0cm;text-indent:35.4pt;line-height:161%'>Подвал страницы
+(Рисунок 10) представляет собой навигационную панель, смещенную вправо (класс
+«ml-auto»). Кнопки панели представляют собой иконки социальных сетей (классы
+font-awesome: «fab-facebook-f, fabvk, fab-twitter») увеличенного размера (класс
+«fa-2x»). </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:6.4pt;
+margin-left:0cm;text-indent:0cm'> </p>
+
+<p class=MsoNormal align=right style='margin-top:0cm;margin-right:24.0pt;
+margin-bottom:5.65pt;margin-left:-1.95pt;text-align:right;text-indent:0cm'><span
+style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif'><img
+border=0 width=642 height=111 id="Group 9250"
+src="1_Знакомство_с_HTML_.files/image010.gif"></span> </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+11.1pt;margin-left:35.75pt'>Рисунок 10 Подвал страницы </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+4.85pt;margin-left:35.75pt'>Пример разметки: </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:38.45pt;margin-bottom:
+.6pt;margin-left:-.25pt;line-height:103%'><span lang=EN-US style='font-size:
+12.0pt;line-height:103%;font-family:Consolas;color:blue'>&lt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:maroon'>div</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas'> </span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:red'>class</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>=&quot;navbar
+navbar-dark navbar-expand-md bg-dark&quot;&gt;</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:38.45pt;margin-bottom:
+.6pt;margin-left:35.9pt;line-height:103%'><span lang=EN-US style='font-size:
+12.0pt;line-height:103%;font-family:Consolas;color:blue'>&lt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:maroon'>div</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas'> </span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:red'>class</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>=&quot;navbar-nav
+ml-auto&quot;&gt;</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:38.45pt;margin-bottom:
+.6pt;margin-left:71.3pt;line-height:103%'><span lang=EN-US style='font-size:
+12.0pt;line-height:103%;font-family:Consolas;color:blue'>&lt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:maroon'>a</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas'> </span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:red'>class</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>=&quot;nav-item
+nav-link&quot;</span><span lang=EN-US style='font-size:12.0pt;line-height:103%;
+font-family:Consolas'> </span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:red'>href</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>=&quot;http://www.facebook.com&quot;&gt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:blue'>&lt;</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:maroon'>i</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:red'>class</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:blue'>=&quot;fab fa-facebook-f
+fa-2x&quot;&gt;&lt;/</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:maroon'>i</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>&gt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:blue'>&lt;/</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:maroon'>a</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>&gt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:58.9pt;margin-bottom:
+.6pt;margin-left:106.2pt;text-indent:-35.4pt;line-height:103%'><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:blue'>&lt;</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:maroon'>a</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:red'>class</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:blue'>=&quot;nav-item nav-link&quot;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:red'>href</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:blue'>=&quot;http://www.vk.com&quot;&gt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:blue'>&lt;</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:maroon'>i</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:red'>class</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:blue'>=&quot;fab fa-vk fa-2x&quot;&gt;&lt;/</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:maroon'>i</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:blue'>&gt;</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:38.45pt;margin-bottom:
+.6pt;margin-left:71.3pt;line-height:103%'><span lang=EN-US style='font-size:
+12.0pt;line-height:103%;font-family:Consolas;color:blue'>&lt;/</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:maroon'>a</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:blue'>&gt;</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:38.45pt;margin-bottom:
+.6pt;margin-left:71.3pt;line-height:103%'><span lang=EN-US style='font-size:
+12.0pt;line-height:103%;font-family:Consolas;color:blue'>&lt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:maroon'>a</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas'> </span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:red'>class</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>=&quot;nav-item
+nav-link&quot;</span><span lang=EN-US style='font-size:12.0pt;line-height:103%;
+font-family:Consolas'> </span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:red'>href</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>=&quot;http://www.twitter.com&quot;&gt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:129.2pt;margin-bottom:
+.6pt;margin-left:70.8pt;text-indent:35.4pt;line-height:103%'><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>&lt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:maroon'>i</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas'> </span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:red'>class</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>=&quot;fab
+fa-twitter fa-2x&quot;&gt;&lt;/</span><span lang=EN-US style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:maroon'>i</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>&gt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas;
+color:blue'>&lt;/</span><span lang=EN-US style='font-size:12.0pt;line-height:
+103%;font-family:Consolas;color:maroon'>a</span><span lang=EN-US
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>&gt;</span><span
+lang=EN-US style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:38.45pt;margin-bottom:
+.6pt;margin-left:35.9pt;line-height:103%'><span style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:blue'>&lt;/</span><span
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:maroon'>div</span><span
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>&gt;</span><span
+style='font-size:12.0pt;line-height:103%;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:38.45pt;margin-bottom:
+6.4pt;margin-left:-.25pt;line-height:103%'><span style='font-size:12.0pt;
+line-height:103%;font-family:Consolas;color:blue'>&lt;/</span><span
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:maroon'>div</span><span
+style='font-size:12.0pt;line-height:103%;font-family:Consolas;color:blue'>&gt; </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:22.1pt;
+margin-left:0cm;text-indent:0cm'><span style='font-size:12.0pt;line-height:
+107%;font-family:Consolas;color:blue'> </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+9.15pt;margin-left:35.75pt'>2.6.<span style='font-family:"Arial",sans-serif'> </span>Разметка
+содержимого страницы </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+.25pt;margin-left:0cm;text-indent:35.4pt;line-height:162%'>Требуется выполнить
+HTML разметку страницы, которая имеет вид как указано на Рисунок 11. </p>
+
+<p class=MsoNormal align=right style='margin-top:0cm;margin-right:18.0pt;
+margin-bottom:5.7pt;margin-left:-1.95pt;text-align:right;text-indent:0cm'><span
+style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif'><img
+border=0 width=651 height=334 id="Group 9096"
+src="1_Знакомство_с_HTML_.files/image011.gif"></span> </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+11.15pt;margin-left:35.75pt'>Рисунок 11 Содержимое страницы </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+.25pt;margin-left:0cm;text-indent:35.4pt;line-height:165%'>Список формируется
+из тэгов &lt;ol&gt; (упорядоченный список), в котором для нумерации строк
+используются заглавные буквы. </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+.25pt;margin-left:0cm;text-indent:35.4pt;line-height:164%'>Радио-кнопки,
+чек-боксы, поля ввода должны отправляться на сервер. Для этого они должны
+находиться внутри тэга &lt;form&gt;. Также не забудьте обязательно присвоить
+имена элементам формы (атрибут name) </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+.25pt;margin-left:0cm;text-indent:35.4pt;line-height:165%'>Для наглядности в
+тэге &lt;form&gt; укажите метод отправки «get». Так вы сможете увидеть
+передаваемые формой данные в строке запроса. </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+6.65pt;margin-left:35.75pt'>Для разметки элементов формы используйте классы
+bootstrap </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:6.25pt;
+margin-left:-.25pt'><a
+href="https://getbootstrap.com/docs/4.3/components/forms/#horizontal-form"><span
+style='color:black;text-decoration:none'>(</span></a><a
+href="https://getbootstrap.com/docs/4.3/components/forms/#horizontal-form"><span
+style='color:#0563C1'>https://getbootstrap.com/docs/4.3/components/forms/#horizontal</span></a><a
+href="https://getbootstrap.com/docs/4.3/components/forms/#horizontal-form"><span
+style='color:#0563C1'>-</span></a><a
+href="https://getbootstrap.com/docs/4.3/components/forms/#horizontal-form"><span
+style='color:#0563C1'>form</span></a><a
+href="https://getbootstrap.com/docs/4.3/components/forms/#horizontal-form"><span
+style='color:black;text-decoration:none'>)</span></a> </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+9.05pt;margin-left:35.75pt'>2.7.<span style='font-family:"Arial",sans-serif'> </span>Использование
+режима «Developer tools» </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+9.2pt;margin-left:35.75pt'>Измените метод отправки формы на POST </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+8.35pt;margin-left:0cm;text-indent:35.4pt;line-height:160%'>
+
+<table cellpadding=0 cellspacing=0>
+ <tr>
+  <td width=109 height=0></td>
+ </tr>
+ <tr>
+  <td></td>
+  <td><img width=681 height=326 src="1_Знакомство_с_HTML_.files/image012.gif"></td>
+ </tr>
+</table>
+
+<br clear=ALL>
+Откройте страницу в браузере. Нажмите клавишу F12. Откроется окно разработчика.
+Выберите закладку Network (сеть). Введите данные формы и нажмите «Отправить».
+Выберите в списке вашу страницу Html. Перейдите в окно Headers (заголовки) и
+найдите Form Data (данные формы). Убедитесь, что данные отправились на сервер
+(Рисунок 12, использовался браузер Google Chrome): </p>
+
+<p class=MsoNormal style='margin-top:10.5pt;margin-right:0cm;margin-bottom:
+21.25pt;margin-left:0cm;text-indent:0cm'> </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+9.2pt;margin-left:35.75pt'>2.8.<span style='font-family:"Arial",sans-serif'> </span>Окончательный
+вид страницы  </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+.25pt;margin-left:35.75pt'>Окончательный вид страницы приведен на Рисунок 13 </p>
+
+<p class=MsoNormal align=right style='margin-top:0cm;margin-right:25.45pt;
+margin-bottom:5.85pt;margin-left:-1.95pt;text-align:right;text-indent:0cm'><span
+style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif'><img
+border=0 width=640 height=401 id="Group 9005"
+src="1_Знакомство_с_HTML_.files/image013.gif"></span> </p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:36.65pt;margin-bottom:
+8.35pt;margin-left:35.75pt'>Рисунок 13 Окончательный вид страницы </p>
+
+<p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;text-indent:0cm'> </p>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+﻿@page "/apidemo"
+@using System.Net.Http.Json;
+
+@inject IHttpClientFactory clientFactory
+@using Lab_Zhuliuk_90331.blazor.Data;
+@using Lab_Zhuliuk_90331.blazor.Components;
+@inject HttpClient client
+
+<div class="container">
+    <PlantsesList @bind-Plantses="plantses"></PlantsesList>
+</div>
+@code {
+    [Parameter]
+    public IEnumerable<ListViewModel> plantses { get; set; }
+
+    string apiBaseAddress = "https://localhost:44368/Api/Plantses";
+    protected override async Task OnInitializedAsync()
+    {
+        plantses =
+            await
+             client.GetFromJsonAsync<IEnumerable<ListViewModel>>(apiBaseAddress);
+    }
+}
